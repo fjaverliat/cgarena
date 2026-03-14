@@ -493,7 +493,7 @@ mod tests {
     use super::*;
 
     macro_rules! generate_query_tests {
-        ($($name:ident: $query:expr),* $(,)?) => {
+        ($($name:ident: $query:expr_2021),* $(,)?) => {
             $(
                 #[test]
                 fn $name() {
